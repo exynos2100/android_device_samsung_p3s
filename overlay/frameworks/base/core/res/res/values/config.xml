@@ -1611,8 +1611,8 @@
 
     <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
     <integer-array name="config_udfps_sensor_props">
-        <item>700</item>
-        <item>2420</item>
-        <item>140</item>
+        <item>720</item>
+        <item>2400</item>
+        <item>160</item>
     </integer-array>
 </resources>
