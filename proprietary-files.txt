@@ -95,6 +95,17 @@ vendor/firmware/wifi/bcmdhd_mfg.bin_c0
 vendor/firmware/wifi/bcmdhd_sta.bin_c1
 vendor/firmware/wifi/bcmdhd_mon.bin_c0
 vendor/firmware/wifi/bcmdhd_sta.bin
+vendor/firmware/wifi/nvram.txt
+vendor/firmware/wifi/nvram.txt_1wk_es40_c0
+vendor/firmware/wifi/nvram.txt_1wk_es41_c0
+vendor/firmware/wifi/nvram.txt_1wk_es42_c0
+vendor/firmware/wifi/nvram.txt_4389_3321
+vendor/firmware/wifi/nvram.txt_ES40_semco_c1
+vendor/firmware/wifi/nvram.txt_4389_3332
+vendor/firmware/wifi/nvram.txt_ES32_semco_c0
+vendor/firmware/wifi/nvram.txt_1wk_es43_c0
+vendor/firmware/wifi/nvram.txt_ES30_semco_c0
+vendor/firmware/wifi/nvram.txt_4389_3323
 vendor/firmware/bcm4389C1_murata.hcd
 vendor/firmware/bcm4389C0_murata.hcd
 vendor/firmware/bcm4389B0_semco.hcd
