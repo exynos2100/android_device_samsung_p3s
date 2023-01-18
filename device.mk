@@ -26,7 +26,19 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Recovery/vendor_boot firmware
 PRODUCT_COPY_FILES += \
     vendor/samsung/p3s/proprietary/vendor/firmware/y792_p3.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/y792_p3.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/y792_p3.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/y792_p3.bin
+    vendor/samsung/p3s/proprietary/vendor/firmware/y792_p3.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/y792_p3.bin \
+    vendor/samsung/p3s/proprietary/vendor/firmware/w9020_p3_c0.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/w9020_p3_c0.bin \
+    vendor/samsung/p3s/proprietary/vendor/firmware/w9020_p3_c0.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/w9020_p3_c0.bin \
+    vendor/samsung/p3s/proprietary/vendor/firmware/w9020_p3_c1.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/w9020_p3_c1.bin \
+    vendor/samsung/p3s/proprietary/vendor/firmware/w9020_p3_c1.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/w9020_p3_c1.bin \
+    vendor/samsung/p3s/proprietary/vendor/firmware/w9020_p3_c2.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/w9020_p3_c2.bin \
+    vendor/samsung/p3s/proprietary/vendor/firmware/w9020_p3_c2.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/w9020_p3_c2.bin \
+    vendor/samsung/p3s/proprietary/vendor/firmware/w9020_p3_c3.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/w9020_p3_c3.bin \
+    vendor/samsung/p3s/proprietary/vendor/firmware/w9020_p3_c3.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/w9020_p3_c3.bin \
+    vendor/samsung/p3s/proprietary/vendor/firmware/p3_00_generic_xtalk_shape.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/p3_00_generic_xtalk_shape.bin \
+    vendor/samsung/p3s/proprietary/vendor/firmware/p3_00_generic_xtalk_shape.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/p3_00_generic_xtalk_shape.bin \
+    vendor/samsung/p3s/proprietary/vendor/firmware/p3_vl53l5.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/p3_vl53l5.bin \
+    vendor/samsung/p3s/proprietary/vendor/firmware/p3_vl53l5.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/p3_vl53l5.bin
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay

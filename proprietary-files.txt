@@ -175,4 +175,10 @@ vendor/firmware/txse2.bin
 vendor/firmware/txse4.bin
 vendor/firmware/volumemonitor.bin
 vendor/firmware/vts.bin
+vendor/firmware/p3_00_generic_xtalk_shape.bin
+vendor/firmware/p3_vl53l5.bin
+vendor/firmware/w9020_p3_c0.bin
+vendor/firmware/w9020_p3_c1.bin
+vendor/firmware/w9020_p3_c2.bin
+vendor/firmware/w9020_p3_c3.bin
 vendor/firmware/y792_p3.bin
