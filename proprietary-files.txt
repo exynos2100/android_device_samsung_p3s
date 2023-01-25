@@ -156,7 +156,6 @@ vendor/firmware/libnn.elf
 vendor/firmware/listenbackeffect.bin
 vendor/firmware/mfc/mfc_fw_flash.bin
 vendor/firmware/mfc_fw.bin
-vendor/firmware/nfc/libsn100u_fw.so
 vendor/firmware/rxse.bin
 vendor/firmware/sb_ll.bin
 vendor/firmware/sb_music.bin
